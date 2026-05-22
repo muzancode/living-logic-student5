@@ -5,3 +5,10 @@
 2026-05-22 17:07:35,490 [WARNING] ROLLBACK | row=2 reason='adaptation caused pressure imbalance' status=SUCCESS
 2026-05-22 17:07:35,500 [INFO] ANOMALY LOGGED | id=dd364d05 type=unusual_network_traffic severity=MEDIUM
 2026-05-22 17:07:35,516 [INFO] ADAPTATION | row=3 proposal='block_external_comms' status=PENDING
+2026-05-22 17:41:56,656 [INFO] ANOMALY LOGGED | id=aeeaeb1a type=pressure_spike severity=HIGH
+2026-05-22 17:41:57,179 [INFO] ADAPTATION | row=4 proposal='reduce_valve_flow_by_20pct' status=APPROVED
+2026-05-22 17:41:57,188 [INFO] ANOMALY LOGGED | id=92dc099e type=sensor_spoofing severity=CRITICAL
+2026-05-22 17:41:57,698 [INFO] ADAPTATION | row=5 proposal='isolate_sensor_node_7' status=APPROVED
+2026-05-22 17:41:58,246 [WARNING] ROLLBACK | row=5 reason='adaptation caused pressure imbalance' status=SUCCESS
+2026-05-22 17:41:58,258 [INFO] ANOMALY LOGGED | id=dd26ebc9 type=unusual_network_traffic severity=MEDIUM
+2026-05-22 17:41:58,274 [INFO] ADAPTATION | row=6 proposal='block_external_comms' status=PENDING
