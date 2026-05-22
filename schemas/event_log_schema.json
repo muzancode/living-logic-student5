@@ -1,0 +1,19 @@
+{
+  "table": "adaptation_events",
+  "fields": {
+    "id": "INTEGER PRIMARY KEY AUTOINCREMENT",
+    "timestamp": "TEXT NOT NULL",
+    "anomaly_id": "TEXT NOT NULL",
+    "anomaly_type": "TEXT",
+    "anomaly_severity": "TEXT",
+    "adaptation_proposed": "TEXT",
+    "adaptation_deployed": "INTEGER DEFAULT 0",
+    "operator_approved": "INTEGER DEFAULT 0",
+    "operator_id": "TEXT",
+    "rollback_triggered": "INTEGER DEFAULT 0",
+    "rollback_reason": "TEXT",
+    "rollback_status": "TEXT",
+    "source_module": "TEXT",
+    "notes": "TEXT"
+  }
+}

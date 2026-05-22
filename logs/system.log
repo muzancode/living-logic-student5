@@ -1,0 +1,7 @@
+2026-05-22 17:07:33,942 [INFO] ANOMALY LOGGED | id=f4adb459 type=pressure_spike severity=HIGH
+2026-05-22 17:07:34,453 [INFO] ADAPTATION | row=1 proposal='reduce_valve_flow_by_20pct' status=APPROVED
+2026-05-22 17:07:34,462 [INFO] ANOMALY LOGGED | id=356b73b0 type=sensor_spoofing severity=CRITICAL
+2026-05-22 17:07:34,972 [INFO] ADAPTATION | row=2 proposal='isolate_sensor_node_7' status=APPROVED
+2026-05-22 17:07:35,490 [WARNING] ROLLBACK | row=2 reason='adaptation caused pressure imbalance' status=SUCCESS
+2026-05-22 17:07:35,500 [INFO] ANOMALY LOGGED | id=dd364d05 type=unusual_network_traffic severity=MEDIUM
+2026-05-22 17:07:35,516 [INFO] ADAPTATION | row=3 proposal='block_external_comms' status=PENDING
