@@ -15,10 +15,10 @@ This module implements the governance, deployment, logging, and rollback layer f
 
 # Tech stack
 
-Python
-SQlite
-Git / Github
-Python logging library 
+1. Python
+2. SQlite
+3. Git / Github
+4. Python logging library 
 
 
 # Documentation
