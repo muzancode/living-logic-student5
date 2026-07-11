@@ -1,0 +1,4 @@
+exports/ 
+db/living_logic.db 
+logs/system.log 
+__pycache__/ 
